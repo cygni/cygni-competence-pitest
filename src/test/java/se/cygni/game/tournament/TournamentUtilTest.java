@@ -7,6 +7,14 @@ import static org.junit.Assert.assertEquals;
 public class TournamentUtilTest {
 
     @Test
+    public void testGetNoofLevelsRoundsUp() throws Exception {
+
+        assertEquals(
+                5,
+                TournamentUtil.getNoofLevels(100, 10));
+    }
+
+    @Test
     public void testGetNoofLevelsConditionalPlayersLessThanOrEqualMaxPlayers() throws Exception {
 
         assertEquals(
