@@ -1,6 +1,7 @@
 # cygni-competence-pitest
 A tutorial in using PITest
 
+Create tests for GameResult that complies to full Mutation testing!
 
 ## Gradle
 gradle pitest
