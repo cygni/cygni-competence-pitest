@@ -1,0 +1,2 @@
+alt-f2 for open in browser
+ctrl-shift-+ run with coverage
